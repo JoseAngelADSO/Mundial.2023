@@ -1,0 +1,55 @@
+body {
+    background-size: cover;
+    background-attachment: scroll;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+html{
+    background-color: rebeccapurple;
+    background-size: cover;
+    background-attachment: scroll;
+}
+header.menu{
+    display:flex;
+    min-height: 65px;
+    background-color: rgb(179, 132, 161);
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    position:relative;
+    position: fixed;
+    
+    
+}
+
+.centro{
+    text-align: center;
+    background: rgba(153, 153, 153, 0);
+    padding: 20px 20px;
+    border-bottom: 0cap;
+    
+}
+img:hover{
+    transform: scale(1.2);
+    text-decoration: none;
+
+}
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color:darkslategrey;
+   
+}
+a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    
+}
+.imagenesestadios{
+   justify-content: space-between;
+   display: flex;
+}
+
+
